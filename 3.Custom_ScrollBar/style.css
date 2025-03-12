@@ -1,0 +1,35 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+   align-items: center;
+}
+
+body{
+   background: crimson;
+}
+
+section{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.card{
+   width: 700px;
+   background: #ccc;
+   padding: 20px;
+   margin: 20px;
+   line-height: 28px;
+}
+
+/* scrollbar */
+::-webkit-scrollbar{
+   background: thistle;
+   width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+   background: linear-gradient(#21d4fd, #b721ff);
+   border-radius: 100px;
+}
